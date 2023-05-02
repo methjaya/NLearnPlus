@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "301078244964",
+    "project_id": "flutter-lms-cde81",
+    "storage_bucket": "flutter-lms-cde81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301078244964:android:bb9de2742a462fb9f53971",
+        "android_client_info": {
+          "package_name": "com.example.nLearnPlus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301078244964-hto7cambu1k54dt0g2h500lgnq613v1g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn0pPPtwpcfnfXL4xbM6DkN8WaAQGbUag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301078244964-hto7cambu1k54dt0g2h500lgnq613v1g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
