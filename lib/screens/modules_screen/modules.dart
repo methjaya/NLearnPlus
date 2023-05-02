@@ -7,14 +7,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:sizer/sizer.dart';
 import '../modules_screen/modules.dart';
-import 'widgets/student_data.dart';
+import 'widgets/module_data.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({Key? key}) : super(key: key);
-  static String routeName = 'HomeScreen';
+class Modules extends StatelessWidget {
+  const Modules({Key? key}) : super(key: key);
+  static String routeName = 'Module';
 
   @override
   Widget build(BuildContext context) {
@@ -85,14 +85,17 @@ class HomeScreen extends StatelessWidget {
                             onPress: () {
                                Navigator.push(context, MaterialPageRoute(builder: (context) => Modules()));
           },
-                           imagePath:'assets/icons/bookmark-fav-front-premium.png' ,
+                              
+                  
+                           
+                            imagePath:'assets/icons/bookmark-fav-front-premium.png' ,
                             title: 'Modules',
                             cardColor: Color.fromARGB(255, 13, 27, 42)),
                         HomeCard(
                             onPress: () {
                               Navigator.of(context).push(MaterialPageRoute(
                                 builder: (context) => WebView(
-                                  initialUrl: 'https://nlearnplustimetable.netlify.app/',
+                                  initialUrl: 'https://docs.google.com/spreadsheets/d/1fOlQnirPllpCENi8P5-JBEV6g16nHZqt/edit?usp=drive_web&ouid=116237338797597298614&rtpof=true',
                                 ),
                               ));
                             },

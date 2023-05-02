@@ -35,8 +35,8 @@ class _SplashScreenState extends State<SplashScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text('NLearn +', style: Theme.of(context).textTheme.headlineLarge),
-                Text('By Sahansa', style: Theme.of(context).textTheme.headlineMedium),
-                Text('& Sajeewa', style: Theme.of(context).textTheme.headlineMedium),
+                // Text('By Sahansa', style: Theme.of(context).textTheme.headlineMedium),
+                // Text('& Sajeewa', style: Theme.of(context).textTheme.headlineMedium),
                 // Text('Prestige', style: Theme.of(context).textTheme.headline5),
                 // Text('Learning', style: Theme.of(context).textTheme.headline5),
               ],

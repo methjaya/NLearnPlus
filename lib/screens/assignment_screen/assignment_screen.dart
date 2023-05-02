@@ -48,19 +48,14 @@ class AssignmentScreen extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Container(
-                                  width: 40.w,
-                                  height: 4.h,
+                                  width: 5.w,
+                                  height: 3.h,
                                   decoration: BoxDecoration(
-                                    color: SecondaryColorNlearn.withOpacity(0.4),
+                                    color: ContainerColorNlearn.withOpacity(0.4),
                                     borderRadius:
                                         BorderRadius.circular(DefPadNlearn),
                                   ),
-                                  child: Center(
-                                    child: Text(
-                                      assignment[index].subjectName,
-                                      style: Theme.of(context).textTheme.caption,
-                                    ),
-                                  ),
+                                 
                                 ),
                                 HalfSBoxxNlearn,
                                 Text(
@@ -71,13 +66,13 @@ class AssignmentScreen extends StatelessWidget {
                                   ),
                                 ),
                                 HalfSBoxxNlearn,
-                                AssignmentDetailRow(
-                                  title: 'Assign Date',
-                                  statusValue: assignment[index].assignDate,
-                                ),
+                                // AssignmentDetailRow(
+                                //   title: 'Assign Date',
+                                //   statusValue: assignment[index].assignDate,
+                                // ),
                                 HalfSBoxxNlearn,
                                 AssignmentDetailRow(
-                                  title: 'Last Date',
+                                  title: 'Due Date',
                                   statusValue: assignment[index].lastDate,
                                 ),
                                 HalfSBoxxNlearn,
